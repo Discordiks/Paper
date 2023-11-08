@@ -435,8 +435,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 255px;
-    min-height: 135px;
+    width: 255px;
+    height: 135px;
     border: 1px solid #C4C4C4;
 }
 
@@ -608,5 +608,13 @@ body {
 }
 
 .sketchbook__img-690 {
+    display: none;
+}
+
+.sketchbook__img-510 {
+    display: none;
+}
+
+.header__img-510 {
     display: none;
 }

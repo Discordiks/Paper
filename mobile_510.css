@@ -1,4 +1,4 @@
-@media screen and (max-width:510px) {
+@media screen and (max-width:690px) {
     @font-face {
         font-family: "Ubuntu-Light";
         src: url("fonts/Ubuntu-Light.ttf");
@@ -28,13 +28,9 @@
         display: flex;
         flex-direction: row;
         align-items: center;
-        justify-content: space-between;
-        margin-top: 2.52vw;
-        /*28px*/
-        margin-bottom: 2.61vw;
-        /*29px*/
-        max-width: 100vw;
-        /*1110px*/
+        margin-top: 10px;
+        margin-bottom: 10px;
+        max-width: 510px;
     }
 
     .header__left {
@@ -42,8 +38,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 0.27vw;
-        /*3px*/
+        gap: 3px;
     }
 
     .header__left img {
@@ -51,17 +46,13 @@
     }
 
     #id1 {
-        max-width: 1.53vw;
-        /*17px*/
-        min-height: 1.53vw;
-        /*17px*/
+        max-width: 17px;
+        min-height: 17px;
     }
 
     #id2 {
-        max-width: 2.88vw;
-        /*32px*/
-        min-height: 1.53vw;
-        /*17px*/
+        max-width: 32px;
+        min-height: 17px;
     }
 
     .header__left p {
@@ -69,8 +60,7 @@
         font-family: "Ubuntu-Light";
         margin: 0;
         color: #333;
-        font-size: 1.80vw;
-        /*20px*/
+        font-size: 20px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
@@ -81,57 +71,36 @@
         align-items: center;
         justify-content: end;
         flex-direction: row;
-        gap: 5.41vw;
-        /*60px*/
+        gap: 60px;
     }
 
     .header__nav {
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        gap: 5.41vw;
-        /*60px*/
-        font-family: "Roboto-Regular";
-    }
-
-    .header__nav a {
-        text-decoration-line: none;
-        color: #4C5866;
-        font-family: "Roboto-Regular";
-        font-size: 1.80vw;
-        /*20px*/
-        font-style: normal;
-        font-weight: 400;
-        line-height: normal;
+        display: none;
     }
 
     .header__img {
         display: flex;
         align-items: center;
         flex-direction: row;
-        gap: 2.70vw;
-        /*30px*/
+        gap: 30px;
     }
 
     .header__img img {
-        max-width: 2.16vw;
-        min-height: 2.16vw;
-        /*24px*/
+        max-width: 24px;
+        min-height: 24px;
     }
 
     .spacer {
         width: 100%;
-        min-height: 0.09vw;
-        /*1px*/
+        height: 1px;
         background: #DDD;
-        margin-bottom: 5.41vw;
-        /*60px*/
+        margin: 0;
+        margin-bottom: 18px;
     }
 
     .main {
         margin: 0 auto;
-        margin-top: 5.41vw;
-        /*60px*/
+        margin-top: 20px;
     }
 
     .head {
@@ -141,10 +110,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 11.26vw;
-        /*125px*/
-        max-width: 100vw;
-        /*1110px*/
+        gap: 29px;
+        max-width: 510px;
 
     }
 
@@ -153,10 +120,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        gap: 2.70vw;
-        /*30px*/
-        max-width: 40.09vw;
-        /*445px*/
+        gap: 20px;
+        max-width: 286px;
         margin: 0 auto;
         padding-bottom: 0px;
     }
@@ -164,12 +129,9 @@
     /*первый заголовок*/
     .head__info h1 {
         margin: 0;
-        margin-top: 6.31vw;
-        /*70px*/
         font-family: "Roboto-Regular";
         color: #4C5866;
-        font-size: 5.41vw;
-        /*60px*/
+        font-size: 38px;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
@@ -179,8 +141,7 @@
         margin: 0;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 1.62vw;
-        /*18px*/
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -190,45 +151,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 22.97vw;
-        /*255px*/
-        min-height: 6.31vw;
-        /*70px*/
-        padding: 1.80vw 4.50vw;
-        /*20px 50px*/
-        gap: 0.54vw;
-        /*6px*/
-        border: 0.09vw solid #7875FE;
-        background-color: white;
-        margin-top: 2.70vw;
-        /*30px*/
+        width: 196px;
+        height: 60px;
+        padding: 20px 50px;
+        gap: 6px;
+        border: 1px solid #7875FE;
+        background-color: #fff;
     }
 
     /*текст внутри кнопки*/
     .head__info button p {
         color: #7875FE;
         font-family: "Roboto-Regular";
-        font-size: 1.80vw;
-        /*20px*/
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
 
     .head__img {
-        display: flex;
-        align-items: end;
-        max-width: 48.65vw;
-        /*540px*/
-        min-height: 50.45vw;
-        /*560px*/
+        display: none;
     }
 
-    .head__img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
-    }
 
     /*чисто серый фон*/
     .fon {
@@ -241,57 +185,39 @@
     .fon__buissnes {
         display: flex;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        flex-wrap: wrap;
-        gap: 2.70vw;
-        /*30px*/
         margin: 0 auto;
-        max-width: 100vw;
-        /*1110px*/
+        max-width: 510px;
     }
 
     .fon__element {
         display: flex;
         flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-        gap: 1.71vw;
-        /*19px*/
-        margin-top: 8.11vw;
-        /*90px*/
-        max-width: 31.53vw;
-        /*350px*/
-        min-height: 12.52vw;
-        /*139px*/
+        gap: 19px;
+        margin-top: 60px;
+        max-width: 150px;
         padding-bottom: 0px;
     }
 
     .fon__spacer {
         width: 100%;
-        min-height: 0.09vw;
-        /*1px*/
+        min-height: 1px;
         background: #C0C0C0;
     }
 
     /*карточка товара*/
     .fon__card {
         display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        gap: 2.70vw;
-        /*30px*/
-        min-height: 10.63vw;
-        /*118px*/
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        gap: 0px;
+        min-height: 183px;
     }
 
     .fon__img {
         display: flex;
-        max-width: 14.41vw;
-        /*160px*/
-        min-height: 10.63vw;
-        /*118px*/
+        max-width: 160px;
+        min-height: 118px;
     }
 
     .fon__img img {
@@ -312,8 +238,7 @@
         margin: 0;
         color: #666;
         font-family: "Roboto-Bold";
-        font-size: 1.62vw;
-        /*18px*/
+        font-size: 16px;
         font-style: normal;
         font-weight: 500;
         line-height: 150%;
@@ -324,8 +249,7 @@
         margin: 0;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 1.62vw;
-        /*18px*/
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -334,53 +258,51 @@
     .paper {
         display: flex;
         flex-direction: column;
-        gap: 2.70vw;
-        /*30px*/
-        margin: 0 auto;
-        max-width: 100vw;
-        /*1110px*/
-        padding-top: 8.11vw;
-        /*90px*/
-        padding-bottom: 8.11vw;
-        /*90px*/
+        align-items: flex-start;
+        justify-content: flex-start;
+        gap: 20px;
+        margin: 0;
+        max-width: 510px;
+    }
+
+    .paper__img {
+        display: flex;
+        max-width: 330px;
+        min-height: 255px;
     }
 
     .paper__img img {
-        max-width: 65.77vw;
-        /*730px*/
-        min-height: 50.81vw;
-        /*564px*/
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .paper__info {
         display: flex;
         flex-direction: column;
         justify-content: center;
+        gap: 14px;
     }
 
     /*заголовок бумаги*/
     .paper__info h1 {
-        max-width: 31.53vw;
-        /*350px*/
-        min-height: 6.67vw;
-        /*74px*/
+        max-width: 270px;
+        min-height: 24px;
         color: #666;
         font-family: "Roboto-Regular";
-        font-size: 3.60vw;
-        /*40px*/
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
+        margin: 0;
     }
 
     /*текст бумаги*/
     .paper__info p {
-        max-width: 31.53vw;
-        /*350px*/
+        max-width: 510px;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 1.62vw;
-        /*18px*/
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
@@ -389,31 +311,23 @@
     .catalog {
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        flex-wrap: wrap;
         margin: 0 auto;
-        max-width: 62.16vw;
+        max-width: 510px;
     }
 
     .catalog__card {
+        margin: 0 auto;
+        margin-top: 60px;
         display: flex;
         flex-direction: column;
-        max-width: 22.97vw;
-        /*255px*/
-        min-height: 41.89vw;
-        /*465px*/
-        margin-bottom: 0px;
-        /*90px*/
-        margin-top: 0px;
-        /*90px*/
+        max-width: 240px;
     }
 
     .catalog__img {
         display: flex;
         align-items: end;
-        max-width: 22.97vw;
-        /*255px*/
-        min-height: 16.22vw;
-        /*255px*/
+        max-width: 240px;
     }
 
     .catalog__img img {
@@ -424,19 +338,16 @@
     .catalog__info {
         display: flex;
         flex-direction: column;
-        max-width: 20.27vw;
-        /*225px*/
+        max-width: 240px;
     }
 
     /*текст заголовка*/
     .catalog__info h1 {
         margin: 0;
-        margin-top: 1.80vw;
-        /*20px*/
+        margin-top: 20px;
         color: #666;
         font-family: "Roboto-Regular";
-        font-size: 2.70vw;
-        /*30px*/
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -445,12 +356,10 @@
     /*подтекст заголовка*/
     .catalog__info h2 {
         margin: 0;
-        margin-top: 0.72vw;
-        /*8px*/
+        margin-top: 8px;
         color: #B5B5BD;
         font-family: "Roboto-Regular";
-        font-size: 1.26vw;
-        /*14px*/
+        font-size: 14px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -458,15 +367,12 @@
 
     /*текст товара*/
     .catalog__info p {
-        max-width: 22.97vw;
-        /*255px*/
+        max-width: 240px;
         margin: 0;
-        margin-top: 0.72vw;
-        /*8px*/
+        margin-top: 8px;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 1.62vw;
-        /*18px*/
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
@@ -474,23 +380,19 @@
 
     .catalog__info a {
         margin: 0;
-        margin-top: 1.80vw;
-        /*20px*/
+        margin-top: 20px;
         text-decoration-line: none;
         color: #7875FE;
         font-family: "Roboto-Regular";
-        font-size: 1.80vw;
-        /*20px*/
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
 
     .catalog__info a svg {
-        width: 1.89vw;
-        /*21px*/
-        height: 1.35vw;
-        /*15px*/
+        width: 21px;
+        height: 15px;
         object-fit: cover;
     }
 
@@ -503,66 +405,55 @@
         align-items: flex-start;
         flex-direction: row;
         flex-wrap: wrap;
-        /*flex-wrap: wrap;*/
-        gap: 2.70vw;
-        /*30px*/
-        padding-top: 8.11vw;
-        /*90px*/
-        padding-bottom: 8.11vw;
-        /*90px*/
-        margin-top: 90px;
+        gap: 30px;
+        margin-top: 60px;
+        padding-top: 60px;
+        padding-bottom: 60px;
     }
 
     .signs__img {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 22.97vw;
-        /*255px*/
-        min-height: 12.16vw;
-        /*135px*/
+        width: 240px;
+        height: 127px;
         border: 1px solid #C4C4C4;
     }
 
     /*скетчбук*/
     .sketchbook {
+        margin: 0 auto;
         display: flex;
         justify-content: center;
         align-items: center;
-        flex-direction: row;
-        gap: 2.70vw;
-        /*30px*/
-        margin-top: 8.11vw;
-        /*90px*/
+        flex-direction: column-reverse;
+        gap: 10px;
+        margin-bottom: 60px;
     }
 
     .sketchbook__info {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        max-width: 31.53vw;
-        /*350px*/
+        max-width: 510px;
     }
 
     .sketchbook__info h1 {
         margin: 0;
         color: #666;
         font-family: "Roboto-Regular";
-        font-size: 3.60vw;
-        /*40px*/
+        font-size: 24px;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
-        margin-bottom: 0.72vw;
-        /*8px*/
+        margin-bottom: 20px;
     }
 
     .sketchbook__info p {
         margin: 0;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 1.62vw;
-        /*18px*/
+        font-size: 16px;
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
@@ -572,43 +463,26 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 22.97vw;
-        /*255px*/
-        min-height: 6.31vw;
-        /*70px*/
-        padding: 1.80vw 4.50vw;
-        /*20px 50px*/
-        gap: 0.54vw;
-        /*6px*/
-        border: 0.09vw solid #7875FE;
-        background-color: white;
-        margin-top: 2.70vw;
-        /*30px*/
+        max-width: 196px;
+        min-height: 60px;
+        padding: 20px 50px;
+        gap: 6px;
+        border: 1px solid #7875FE;
+        background-color: #fff;
+        margin-top: 30px;
     }
 
     .sketchbook__info button p {
         color: #7875FE;
         font-family: "Roboto-Regular";
-        font-size: 1.80vw;
-        /*20px*/
+        font-size: 20px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
 
     .sketchbook__img {
-        display: flex;
-        align-items: end;
-        max-width: 65.77vw;
-        /*730px*/
-        min-height: 1.80vw;
-        /*20px*/
-    }
-
-    .sketchbook__img img {
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
+        display: none;
     }
 
     /*футер*/
@@ -624,12 +498,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding-top: 2.52vw;
-        /*28px*/
-        padding-bottom: 2.61vw;
-        /*29px*/
-        max-width: 100vw;
-        /*1110px*/
+        padding-top: 28px;
+        padding-bottom: 29px;
+        max-width: 1110px;
     }
 
     .footer__left {
@@ -637,8 +508,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 0.27vw;
-        /*3px*/
+        gap: 3px;
     }
 
     .footer__left p {
@@ -646,8 +516,7 @@
         font-family: "Ubuntu-Light";
         margin: 0;
         color: #fff;
-        font-size: 1.80vw;
-        /*20px*/
+        font-size: 20px;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
@@ -658,13 +527,12 @@
         align-items: center;
         justify-content: end;
         flex-direction: row;
-        gap: 2.70vw;
-        /*30px*/
+        gap: 30px;
     }
 
     .footer__right a svg {
-        width: 2.16vw;
-        height: 2.16vw;
+        width: 24px;
+        height: 24px;
         object-fit: cover;
     }
 
@@ -672,18 +540,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 0.27vw;
-        /*3px*/
-        margin-bottom: 0.27vw;
-        /*3px*/
+        margin-top: 3px;
+        margin-bottom: 3px;
     }
 
     .text p {
         margin: 0;
         color: #4C5866;
         font-family: "Roboto-Regular";
-        font-size: 1.17vw;
-        /*13px*/
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -694,11 +559,80 @@
         margin: 0;
         color: #BCBCBC;
         font-family: "Roboto-Regular";
-        font-size: 1.17vw;
-        /*13px*/
+        font-size: 13px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
     }
+
+    /*690*/
+    .header__nav-690 {
+        display: none;
+    }
+
+    /*690*/
+    .header__nav-690 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: row;
+        gap: 51px;
+        font-family: "Roboto-Regular";
+    }
+
+    .header__nav-690 a {
+        text-decoration-line: none;
+        color: #4C5866;
+        font-family: "Roboto-Regular";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .spacer-690 {
+        display: block;
+        width: 100%;
+        height: 1px;
+        background: #DDD;
+        margin-top: 18px;
+    }
+
+    .head__img-510 {
+        display: flex;
+        align-items: end;
+        max-width: 195px;
+        min-height: 396px;
+    }
+
+    .header__img-510 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .head__img-690 {
+        display: none;
+    }
+
+    .sketchbook__img-690 {
+        display: none;
+    }
+
+    .sketchbook__img-510 {
+        margin-top: 60px;
+        display: flex;
+        align-items: end;
+        max-width: 449px;
+        min-height: 341.122px;
+    }
+
+    .sketchbook__img-510 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+
 }

@@ -518,9 +518,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 22.97vw;
+        width: 22.97vw;
         /*255px*/
-        min-height: 12.16vw;
+        height: 12.16vw;
         /*135px*/
         border: 1px solid #C4C4C4;
     }
@@ -717,6 +717,14 @@
     }
 
     .sketchbook__img-690 {
+        display: none;
+    }
+
+    .sketchbook__img-510 {
+        display: none;
+    }
+
+    .header__img-510 {
         display: none;
     }
 }
