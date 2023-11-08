@@ -190,9 +190,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 22.97vw;
+        width: 22.97vw;
         /*255px*/
-        min-height: 6.31vw;
+        height: 6.31vw;
         /*70px*/
         padding: 1.80vw 4.50vw;
         /*20px 50px*/
@@ -200,8 +200,6 @@
         /*6px*/
         border: 0.09vw solid #7875FE;
         background-color: white;
-        margin-top: 2.70vw;
-        /*30px*/
     }
 
     /*текст внутри кнопки*/
@@ -520,7 +518,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 22.97vw;
+        max-width: 22.97vw;
         /*255px*/
         min-height: 12.16vw;
         /*135px*/
@@ -584,7 +582,7 @@
         gap: 0.54vw;
         /*6px*/
         border: 0.09vw solid #7875FE;
-        background-color: white;
+        background-color: #fff;
         margin-top: 2.70vw;
         /*30px*/
     }
@@ -703,5 +701,22 @@
         font-weight: 400;
         line-height: normal;
         text-transform: uppercase;
+    }
+
+    /*690*/
+    .header__nav-690 {
+        display: none;
+    }
+
+    .spacer-690 {
+        display: none;
+    }
+
+    .head__img-690 {
+        display: none;
+    }
+
+    .sketchbook__img-690 {
+        display: none;
     }
 }
