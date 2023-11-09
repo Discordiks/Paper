@@ -482,8 +482,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    max-width: 255px;
-    min-height: 70px;
+    width: 255px;
+    height: 70px;
     padding: 20px 50px;
     gap: 6px;
     border: 1px solid #7875FE;
@@ -599,11 +599,19 @@ body {
     display: none;
 }
 
+.header__right-290 {
+    display: none;
+}
+
 .spacer-690 {
     display: none;
 }
 
 .head__img-690 {
+    display: none;
+}
+
+.head__img-510 {
     display: none;
 }
 
@@ -616,5 +624,13 @@ body {
 }
 
 .header__img-510 {
+    display: none;
+}
+
+.footer__right-290 {
+    display: none;
+}
+
+.spacer-290 {
     display: none;
 }

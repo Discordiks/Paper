@@ -573,9 +573,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        max-width: 22.97vw;
+        width: 22.97vw;
         /*255px*/
-        min-height: 6.31vw;
+        height: 6.31vw;
         /*70px*/
         padding: 1.80vw 4.50vw;
         /*20px 50px*/
@@ -629,8 +629,6 @@
         /*28px*/
         padding-bottom: 2.61vw;
         /*29px*/
-        max-width: 100vw;
-        /*1110px*/
     }
 
     .footer__left {
@@ -708,11 +706,19 @@
         display: none;
     }
 
+    .header__right-290 {
+        display: none;
+    }
+
     .spacer-690 {
         display: none;
     }
 
     .head__img-690 {
+        display: none;
+    }
+
+    .head__img-510 {
         display: none;
     }
 
@@ -725,6 +731,14 @@
     }
 
     .header__img-510 {
+        display: none;
+    }
+
+    .footer__right-290 {
+        display: none;
+    }
+
+    .spacer-290 {
         display: none;
     }
 }
