@@ -343,11 +343,18 @@
         /*90px*/
     }
 
-    .paper__img img {
-        max-width: 65.77vw;
+    .paper__img {
+        display: flex;
+        width: 65.77vw;
         /*730px*/
-        min-height: 50.81vw;
+        height: 50.81vw;
         /*564px*/
+    }
+
+    .paper__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .paper__info {

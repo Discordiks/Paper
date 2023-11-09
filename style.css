@@ -295,8 +295,8 @@ body {
 }
 
 .paper__img img {
-    max-width: 730px;
-    min-height: 564px;
+    width: 730px;
+    height: 564px;
 }
 
 .paper__info {

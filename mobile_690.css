@@ -29,9 +29,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        max-width: 690px;
+        margin-top: 1.45vw;
+        margin-bottom: 1.45vw;
+        max-width: 100vw;
     }
 
     .header__left {
@@ -39,7 +39,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 3px;
+        gap: 0.43vw;
     }
 
     .header__left img {
@@ -47,13 +47,13 @@
     }
 
     #id1 {
-        max-width: 17px;
-        min-height: 17px;
+        max-width: 2.46vw;
+        min-height: 2.46vw;
     }
 
     #id2 {
-        max-width: 32px;
-        min-height: 17px;
+        max-width: 4.64vw;
+        min-height: 2.46vw;
     }
 
     .header__left p {
@@ -61,7 +61,7 @@
         font-family: "Ubuntu-Light";
         margin: 0;
         color: #333;
-        font-size: 20px;
+        font-size: 2.90vw;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
@@ -72,7 +72,7 @@
         align-items: center;
         justify-content: end;
         flex-direction: row;
-        gap: 60px;
+        gap: 8.70vw;
     }
 
     .header__nav {
@@ -83,25 +83,25 @@
         display: flex;
         align-items: center;
         flex-direction: row;
-        gap: 30px;
+        gap: 4.35vw;
     }
 
     .header__img img {
-        max-width: 24px;
-        min-height: 24px;
+        max-width: 3.48vw;
+        min-height: 3.48vw;
     }
 
     .spacer {
         width: 100%;
-        height: 1px;
+        height: 0.14vw;
         background: #DDD;
         margin: 0;
-        margin-bottom: 18px;
+        margin-bottom: 2.61vw;
     }
 
     .main {
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 8.70vw;
     }
 
     .head {
@@ -111,8 +111,8 @@
         flex-direction: row;
         align-items: center;
         justify-content: center;
-        gap: 30px;
-        max-width: 690px;
+        gap: 4.35vw;
+        max-width: 100vw;
 
     }
 
@@ -121,8 +121,8 @@
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        gap: 30px;
-        max-width: 390px;
+        gap: 4.35vw;
+        max-width: 56.52vw;
         margin: 0 auto;
         padding-bottom: 0px;
     }
@@ -132,7 +132,7 @@
         margin: 0;
         font-family: "Roboto-Regular";
         color: #4C5866;
-        font-size: 50px;
+        font-size: 7.25vw;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
@@ -142,7 +142,7 @@
         margin: 0;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 18px;
+        font-size: 2.61vw;
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -152,11 +152,11 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 255px;
-        height: 70px;
-        padding: 20px 50px;
-        gap: 6px;
-        border: 1px solid #7875FE;
+        width: 36.96vw;
+        height: 10.14vw;
+        padding: 2.90vw 7.25vw;
+        gap: 0.87vw;
+        border: 0.14vw solid #7875FE;
         background-color: #fff;
     }
 
@@ -164,7 +164,7 @@
     .head__info button p {
         color: #7875FE;
         font-family: "Roboto-Regular";
-        font-size: 20px;
+        font-size: 2.90vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -187,21 +187,21 @@
         display: flex;
         flex-direction: row;
         margin: 0 auto;
-        max-width: 690px;
+        max-width: 100vw;
     }
 
     .fon__element {
         display: flex;
         flex-direction: column;
-        gap: 19px;
-        margin-top: 60px;
-        max-width: 210px;
+        gap: 2.75vw;
+        margin-top: 8.70vw;
+        max-width: 30.43vw;
         padding-bottom: 0px;
     }
 
     .fon__spacer {
         width: 100%;
-        min-height: 1px;
+        min-height: 0.14vw;
         background: #C0C0C0;
     }
 
@@ -211,14 +211,14 @@
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
-        gap: 30px;
-        min-height: 118px;
+        gap: 4.35vw;
+        min-height: 17.10vw;
     }
 
     .fon__img {
         display: flex;
-        max-width: 150px;
-        min-height: 111px;
+        max-width: 21.74vw;
+        min-height: 16.09vw;
     }
 
     .fon__img img {
@@ -239,7 +239,7 @@
         margin: 0;
         color: #666;
         font-family: "Roboto-Bold";
-        font-size: 18px;
+        font-size: 2.61vw;
         font-style: normal;
         font-weight: 500;
         line-height: 150%;
@@ -250,7 +250,7 @@
         margin: 0;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 18px;
+        font-size: 2.61vw;
         font-style: normal;
         font-weight: 400;
         line-height: 150%;
@@ -259,14 +259,21 @@
     .paper {
         display: flex;
         flex-direction: row;
-        gap: 30px;
+        gap: 4.35vw;
         margin: 0 auto;
-        max-width: 690px;
+        max-width: 100vw;
+    }
+
+    .paper__img {
+        display: flex;
+        width: 47.83vw;
+        height: 37.10vw;
     }
 
     .paper__img img {
-        max-width: 330px;
-        min-height: 256px;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 
     .paper__info {
@@ -277,11 +284,11 @@
 
     /*заголовок бумаги*/
     .paper__info h1 {
-        max-width: 330px;
-        min-height: 60px;
+        max-width: 47.83vw;
+        min-height: 8.70vw;
         color: #666;
         font-family: "Roboto-Regular";
-        font-size: 30px;
+        font-size: 4.35vw;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
@@ -289,10 +296,10 @@
 
     /*текст бумаги*/
     .paper__info p {
-        max-width: 330px;
+        max-width: 47.83vw;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 18px;
+        font-size: 2.61vw;
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
@@ -303,21 +310,21 @@
         flex-direction: row;
         flex-wrap: wrap;
         margin: 0 auto;
-        max-width: 690px;
+        max-width: 100vw;
     }
 
     .catalog__card {
         margin: 0 auto;
-        margin-top: 60px;
+        margin-top: 8.70vw;
         display: flex;
         flex-direction: column;
-        max-width: 330px;
+        max-width: 47.83vw;
     }
 
     .catalog__img {
         display: flex;
         align-items: end;
-        max-width: 330px;
+        max-width: 47.83vw;
     }
 
     .catalog__img img {
@@ -328,16 +335,16 @@
     .catalog__info {
         display: flex;
         flex-direction: column;
-        max-width: 330px;
+        max-width: 47.83vw;
     }
 
     /*текст заголовка*/
     .catalog__info h1 {
         margin: 0;
-        margin-top: 20px;
+        margin-top: 2.90vw;
         color: #666;
         font-family: "Roboto-Regular";
-        font-size: 30px;
+        font-size: 4.35vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -346,10 +353,10 @@
     /*подтекст заголовка*/
     .catalog__info h2 {
         margin: 0;
-        margin-top: 8px;
+        margin-top: 1.16vw;
         color: #B5B5BD;
         font-family: "Roboto-Regular";
-        font-size: 14px;
+        font-size: 2.03vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -357,12 +364,12 @@
 
     /*текст товара*/
     .catalog__info p {
-        max-width: 330px;
+        max-width: 47.83vw;
         margin: 0;
-        margin-top: 8px;
+        margin-top: 1.16vw;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 18px;
+        font-size: 2.61vw;
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
@@ -370,19 +377,19 @@
 
     .catalog__info a {
         margin: 0;
-        margin-top: 20px;
+        margin-top: 2.90vw;
         text-decoration-line: none;
         color: #7875FE;
         font-family: "Roboto-Regular";
-        font-size: 20px;
+        font-size: 2.90vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
     }
 
     .catalog__info a svg {
-        width: 21px;
-        height: 15px;
+        width: 3.04vw;
+        height: 2.17vw;
         object-fit: cover;
     }
 
@@ -394,19 +401,19 @@
         justify-content: center;
         align-items: flex-start;
         flex-direction: row;
-        gap: 30px;
-        margin-top: 60px;
-        padding-top: 60px;
-        padding-bottom: 60px;
+        gap: 4.35vw;
+        margin-top: 8.70vw;
+        padding-top: 8.70vw;
+        padding-bottom: 8.70vw;
     }
 
     .signs__img {
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 150px;
-        height: 80px;
-        border: 1px solid #C4C4C4;
+        width: 21.74vw;
+        height: 11.59vw;
+        border: 0.14vw solid #C4C4C4;
     }
 
     /*скетчбук*/
@@ -416,32 +423,32 @@
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 30px;
+        gap: 4.35vw;
     }
 
     .sketchbook__info {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        max-width: 330px;
+        max-width: 47.83vw;
     }
 
     .sketchbook__info h1 {
         margin: 0;
         color: #666;
         font-family: "Roboto-Regular";
-        font-size: 30px;
+        font-size: 4.35vw;
         font-style: normal;
         font-weight: 400;
         line-height: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 2.90vw;
     }
 
     .sketchbook__info p {
         margin: 0;
         color: #85859B;
         font-family: "Roboto-Regular";
-        font-size: 18px;
+        font-size: 2.61vw;
         font-style: normal;
         font-weight: 400;
         line-height: 170%;
@@ -451,19 +458,19 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 255px;
-        height: 70px;
-        padding: 20px 50px;
-        gap: 6px;
-        border: 1px solid #7875FE;
+        width: 36.96vw;
+        height: 10.14vw;
+        padding: 2.90vw 7.25vw;
+        gap: 0.87vw;
+        border: 0.14vw solid #7875FE;
         background-color: #fff;
-        margin-top: 30px;
+        margin-top: 4.35vw;
     }
 
     .sketchbook__info button p {
         color: #7875FE;
         font-family: "Roboto-Regular";
-        font-size: 20px;
+        font-size: 2.90vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -486,9 +493,9 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-between;
-        padding-top: 28px;
-        padding-bottom: 29px;
-        max-width: 690px;
+        padding-top: 4.06vw;
+        padding-bottom: 4.20vw;
+        max-width: 100vw;
     }
 
     .footer__left {
@@ -496,7 +503,7 @@
         align-items: center;
         justify-content: center;
         flex-direction: row;
-        gap: 3px;
+        gap: 0.43vw;
     }
 
     .footer__left p {
@@ -504,7 +511,7 @@
         font-family: "Ubuntu-Light";
         margin: 0;
         color: #fff;
-        font-size: 20px;
+        font-size: 2.90vw;
         font-style: normal;
         font-weight: 300;
         line-height: normal;
@@ -515,12 +522,12 @@
         align-items: center;
         justify-content: end;
         flex-direction: row;
-        gap: 30px;
+        gap: 4.35vw;
     }
 
     .footer__right a svg {
-        width: 24px;
-        height: 24px;
+        width: 3.48vw;
+        height: 3.48vw;
         object-fit: cover;
     }
 
@@ -528,15 +535,15 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        margin-top: 3px;
-        margin-bottom: 3px;
+        margin-top: 0.43vw;
+        margin-bottom: 0.43vw;
     }
 
     .text p {
         margin: 0;
         color: #4C5866;
         font-family: "Roboto-Regular";
-        font-size: 13px;
+        font-size: 1.88vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -547,7 +554,7 @@
         margin: 0;
         color: #BCBCBC;
         font-family: "Roboto-Regular";
-        font-size: 13px;
+        font-size: 1.88vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -569,7 +576,7 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: row;
-        gap: 60px;
+        gap: 8.70vw;
         font-family: "Roboto-Regular";
     }
 
@@ -577,7 +584,7 @@
         text-decoration-line: none;
         color: #4C5866;
         font-family: "Roboto-Regular";
-        font-size: 20px;
+        font-size: 2.90vw;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
@@ -586,16 +593,16 @@
     .spacer-690 {
         display: block;
         width: 100%;
-        height: 1px;
+        height: 0.14vw;
         background: #DDD;
-        margin-top: 18px;
+        margin-top: 2.61vw;
     }
 
     .head__img-690 {
         display: flex;
         align-items: end;
-        max-width: 270px;
-        min-height: 410px;
+        max-width: 39.13vw;
+        min-height: 59.42vw;
     }
 
     .head__img-690 img {
@@ -611,8 +618,9 @@
     .sketchbook__img-690 {
         display: flex;
         align-items: end;
-        max-width: 449px;
-        min-height: 341.122px;
+        max-width: 65.07vw;
+        min-height: 49.42vw
+            /*341.122px;*/
     }
 
     .sketchbook__img-690 img {
