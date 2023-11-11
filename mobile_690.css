@@ -419,6 +419,7 @@
     /*скетчбук*/
     .sketchbook {
         margin: 0 auto;
+        margin-top: 8.70vw;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -601,8 +602,8 @@
     .head__img-690 {
         display: flex;
         align-items: end;
-        max-width: 39.13vw;
-        min-height: 59.42vw;
+        width: 39.13vw;
+        height: 59.42vw;
     }
 
     .head__img-690 img {
@@ -618,8 +619,8 @@
     .sketchbook__img-690 {
         display: flex;
         align-items: end;
-        max-width: 65.07vw;
-        min-height: 49.42vw
+        width: 65.07vw;
+        height: 49.42vw
             /*341.122px;*/
     }
 

@@ -20,7 +20,7 @@
 
     .header {
         margin: 0 auto;
-        width: 100%;
+        width: 90%;
     }
 
     .header__info {
@@ -216,9 +216,9 @@
     .head__img {
         display: flex;
         align-items: end;
-        max-width: 48.65vw;
+        width: 48.65vw;
         /*540px*/
-        min-height: 50.45vw;
+        height: 50.45vw;
         /*560px*/
     }
 
@@ -607,10 +607,8 @@
     .sketchbook__img {
         display: flex;
         align-items: end;
-        max-width: 65.77vw;
-        /*730px*/
-        min-height: 1.80vw;
-        /*20px*/
+        width: 65.77vw;
+        height: 50vw;
     }
 
     .sketchbook__img img {
@@ -747,5 +745,9 @@
 
     .spacer-290 {
         display: none;
+    }
+
+    .WWW {
+        width: 90%;
     }
 }

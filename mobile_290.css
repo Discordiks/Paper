@@ -627,8 +627,8 @@
         margin-top: 20.69vw;
         display: flex;
         align-items: end;
-        max-width: 100vw;
-        min-height: 75.86vw;
+        width: 100vw;
+        height: 75.86vw;
     }
 
     .sketchbook__img-510 img {
